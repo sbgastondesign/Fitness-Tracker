@@ -14,32 +14,32 @@ const workoutSchema = new Schema({
                 trim: true,
                 required: "Type of Workout"
             },
-            exerciseName: {
+            name: {
                 type: String,
                 trim: true,
                 required: "Name of Workout"
             },
-            totalDuration: {
+            duration: {
                 type: Number,
                 required: "Total Workout Duration"
             },
-            numExercises: {
+            exercises: {
                 type: Number,
                 required: "Exercises Performed"
             },
-            totalWeight: {
+            weight: {
                 type: Number,
                 required: "Total Weight Lifted"
             },
-            totalSets: {
+            sets: {
                 type: Number,
                 required: "Total Sets Performed"
             },
-            totalReps: {
+            reps: {
                 type: Number,
                 required: "Total Reps Performed"
             },
-            totalDistance: {
+            distance: {
                 type: Number,
                 required: "Total Distance Covered"
             },
