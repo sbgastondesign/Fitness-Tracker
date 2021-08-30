@@ -14,7 +14,7 @@ app.use(express.static("public"));
 //     useFindAndModify: false
 // });
 mongoose.connect(
-    process.env.MONGODB_URI || 'mongodb://localhost/nameless-ocean-85982',
+    process.env.MONGODB_URI || 'mongodb://localhost/Fitness-Tracker',
     {
         useNewUrlParser: true,
         useUnifiedTopology: true,
